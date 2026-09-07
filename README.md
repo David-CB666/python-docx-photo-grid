@@ -1,7 +1,8 @@
 # python-docx-photo-grid · Word 自適應相片排版
 
----
 <div align="center">
+
+![Adaptive Photo Grid Comparison](assets/photo-grid-comparison.jpg)
 
 **Word report generation with adaptive 2-column photo grid algorithm**
 
