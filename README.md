@@ -1,4 +1,4 @@
-# python-docx-photo-grid · Word 自適應相片排版
+﻿# python-docx-photo-grid · Word 自適應相片排版
 
 <div align="center">
 
@@ -57,7 +57,7 @@ A4 geometry · MD5 dedup · Caption generation · Full helper library
 
 > 🔒 **竣工報告三件套模板與SOP** 為非公開內容，不在此公開 repo 中。
 > 包含完整模板、排版規格、SOP 流程、實機交付件參數。
-> 如需商業使用，請郵件聯絡：**mike.david.cb666@gmail.com**
+> 如需商業使用，請郵件聯絡：**david_1999cn@hotmail.com**
 
 ## 適用場景
 
