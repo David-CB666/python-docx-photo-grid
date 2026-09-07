@@ -49,11 +49,15 @@ A4 geometry · MD5 dedup · Caption generation · Full helper library
 - 結構完整性檢查腳本
 - 17 個 documented pitfalls
 
-### 🏗️ 竣工報告三件套
+### 🏗️ 竣工報告三件套模板
 - 燈具安裝完成報告
 - Lux 照度測試報告
 - 風扇安裝完成報告
 - （統一藍色系 + 承建商抬頭圖 + 章節結構）
+
+> 🔒 **竣工報告三件套模板與SOP** 為非公開內容，不在此公開 repo 中。
+> 包含完整模板、排版規格、SOP 流程、實機交付件參數。
+> 如需商業使用，請郵件聯絡：**mike.david.cb666@gmail.com**
 
 ## 適用場景
 
@@ -72,8 +76,10 @@ A4 geometry · MD5 dedup · Caption generation · Full helper library
 python-docx-photo-grid/
 ├── README.md                          # 本文件
 ├── DOCUMENTATION.md                   # 完整技能文檔
+├── assets/
+│   └── photo-grid-comparison.jpg      # 效果對比圖
 ├── references/
-│   └── 竣工報告三件套_模板與SOP.md    # 模板 & SOP 參考
+│   └── 竣工報告三件套_模板與SOP.md 🔒 # 模板 & SOP 參考（非公開，需郵件授權）
 └── scripts/
     └── adaptive_photo_grid.py         # 可重用程式碼模組
 ```
