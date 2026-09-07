@@ -1,5 +1,18 @@
 # python-docx-photo-grid · Word 自適應相片排版
 
+---
+<div align="center">
+
+**Word report generation with adaptive 2-column photo grid algorithm**
+
+A4 geometry · MD5 dedup · Caption generation · Full helper library
+
+[快速開始](#快速開始) · [文件結構](#文件結構) · [技術棧](#技術棧)
+
+</div>
+
+---
+
 > Python-based Word (.docx) 報告生成，配**自適應 2 欄相片網格**算法。解決「固定 2×2 佈局浪費空間」嘅經典問題，按每頁實際行數動態縮放相片。
 
 ## 解決什麼問題
@@ -57,7 +70,7 @@
 ```
 python-docx-photo-grid/
 ├── README.md                          # 本文件
-├── SKILL.md                           # 完整技能文檔
+├── DOCUMENTATION.md                   # 完整技能文檔
 ├── references/
 │   └── 竣工報告三件套_模板與SOP.md    # 模板 & SOP 參考
 └── scripts/
@@ -79,8 +92,10 @@ builder.add_photos(["photo1.jpg", "photo2.jpg", "photo3.jpg"])
 builder.save("report.docx")
 ```
 
-詳細用法請參閱 [SKILL.md](SKILL.md)。
+詳細用法請參閱 [DOCUMENTATION.md](DOCUMENTATION.md)。
 
 ---
 
-*來自 Engineering AI Skills 集合*
+## License
+
+MIT License — feel free to use, modify, and share.
