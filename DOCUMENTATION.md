@@ -58,7 +58,7 @@ $PY -m venv "<WORKBUDDY_DIR>/binaries/python/envs/default"
 
 | 工具 | 路徑格式 | 例子 |
 |---|---|---|
-| **Windows python.exe** | **Windows 反斜杠 `D:\...`** | `r"D:\工作文件\xxx.docx"` |
+| **Windows python.exe** | **Windows 反斜杠 `D:\...`** | `r"<WORK_DIR>\xxx.docx"` |
 | Git Bash shell 命令 | POSIX `/d/...` | `/d/工作文件/xxx.docx` |
 
 **規則：**
@@ -462,7 +462,7 @@ from PIL import Image
 PHOTO_DIR = r"D:\path\to\photos"
 LOGO      = r"D:\path\to\company_logo.jpg"     # 承建商公司抬頭圖
 OUT       = r"D:\path\to\output\report.docx"
-TEMP      = r"D:\WorkBuddy\temp\_photos"
+TEMP      = r"<WORKSPACE>\temp\_photos"
 os.makedirs(TEMP, exist_ok=True)
 
 # === A4 幾何（竣工報告；勘察備忘改 Letter 21.59×27.94）===
